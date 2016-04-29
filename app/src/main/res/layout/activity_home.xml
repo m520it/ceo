@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3B583"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="功能列表"
+    android:textSize="22dp"
+    android:gravity="center"
+    android:textColor="#000"
+    android:background="#B5D3ED"/>
+    <com.m520it.mobilephone.view.FocusedTextView
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="360安全卫士,为你启航!"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:ellipsize="end"/>
+    <GridView
+        android:id="@+id/home_gv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:verticalSpacing="20dp"
+        android:numColumns="3"></GridView>
+</LinearLayout>

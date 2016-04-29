@@ -58,5 +58,6 @@ public class HomeActivity extends Activity {
                 }
             }
         });
+        onDestroy();
     }
 }

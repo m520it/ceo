@@ -17,7 +17,7 @@ public class HomeActivity extends Activity {
 
     private GridView mHomeGv;
     private String[] mItemDatas;
-    private int[] mItemPictures;
+    private int[] mItemPictures; 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
